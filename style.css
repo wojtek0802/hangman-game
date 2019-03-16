@@ -73,7 +73,7 @@ body
     font-size: 24px;
 }
 
-#resetButton
+.myButton
 {
     margin-top: 40px;
     padding: 20px;
@@ -85,6 +85,9 @@ body
     font-size: 32px;
     border-radius: 6px;
     cursor:pointer;
+    display: inline-block;
+    margin-right: 10px;
+    width:300px;
 }
 
 #resetButton:hover
@@ -97,5 +100,5 @@ body
     font-size: 16px;
     text-align: center;
     padding:7px;
-    margin-top: 130px;
+    margin-top: 50px;
 }
